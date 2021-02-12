@@ -27,8 +27,31 @@
 
 ### Private fields
 
+Proposta de adicionar atributos privados ao javascript:
+
 - Reference : https://github.com/tc39/proposal-class-fields
 
+#
+
+## O que aprendi
+
+- Package.json
+
+- Modules
+
+- `import/export`
+
+- Quais as vantagens de ter um código onde usamos `classes` e composição ao invés de tipos primitivos
+
+- Tipos de valor e tipos de referência
+
+- Alterando dinamicamente um objeto
+
+## Complementar
+
+### Gerenciamento de memória - Tipos primitivos e não primitivos de valores
+
+- Reference: https://medium.com/@ethannam/javascripts-memory-model-7c972cd2c239
 
 
 
