@@ -2,25 +2,23 @@ import { Cliente } from "./Cliente.js";
 
 export class ContaCorrente {
   agencia;
-  _cliente;
-
-  set cliente(novoValor) {
-    if( novoValor instanceof Cliente) this._cliente = novoValor;
-  }
-
-  get cliente() {
-    return this._cliente;
-  }
-
-  /**
+   /**
    * Private fields
    * https://github.com/tc39/proposal-class-fields
    */
   // #saldo = 0 
   _saldo = 0;
+  _cliente;
 
-  get saldo() {
-    return this._saldo;
+  set cliente(novoValor) { if( novoValor instanceof Cliente) this._cliente = novoValor; }
+
+  get cliente() { return this._cliente; }
+
+  get saldo() { return this._saldo; }
+
+  constructor(agencia, cliente) {
+    this.agencia = agencia;
+    this.cliente = cliente;
   }
 
   sacar(valor) {
