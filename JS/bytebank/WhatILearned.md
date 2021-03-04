@@ -1,12 +1,10 @@
 # Repetição de código
 
 ## O que aprendi
+
 - Criando `classes`
-
 - O que são atributos
-
 - Instâcia/Objeto
-
 - Operador `new`
 
 # Adicionando comportamentos
@@ -14,13 +12,9 @@
 ## O que aprendi
 
 - Criação de métodos
-
 - Palavra chave `this`
-
 - Encapsulamento
-
 - Proposta de atributos privados
-
 - `return` e `early` `return`
 
 ## Complementar
@@ -31,20 +25,14 @@ Proposta de adicionar atributos privados ao javascript:
 
 - Reference : https://github.com/tc39/proposal-class-fields
 
-#
 
 ## O que aprendi
 
 - Package.json
-
 - Modules
-
 - `import/export`
-
 - Quais as vantagens de ter um código onde usamos `classes` e composição ao invés de tipos primitivos
-
 - Tipos de valor e tipos de referência
-
 - Alterando dinamicamente um objeto
 
 ## Complementar
@@ -53,5 +41,12 @@ Proposta de adicionar atributos privados ao javascript:
 
 - Reference: https://medium.com/@ethannam/javascripts-memory-model-7c972cd2c239
 
+# Acessando Atributos privados
+
+## O que aprendi
+
+- `null` e `undefined`
+- Getters e Setters ( `get` e `set` )
+- Encapsulando com assessores
 
 
