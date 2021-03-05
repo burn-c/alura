@@ -1,28 +1,12 @@
-import { Cliente } from "./Cliente.js";
+export class ContaPoupanca {
+  constructor(saldoInicial, cliente, agencia) {
+    this._saldo = saldoInicial;
+    this._cliente = cliente;
+    this._agencia = agencia;
 
-export class ContaCorrente {
-  static numeroDeContas = 0;
-  
-  /**
-   * Private fields
-   * https://github.com/tc39/proposal-class-fields
-   */
-  // #saldo = 0 
+    // Verificar por que não está aceitando cliente.nome
+    console.log('Conta poupança de ' + this._cliente.nome + ' criada com sucesso!!')
 
-  set cliente(novoValor) { if( novoValor instanceof Cliente) this._cliente = novoValor; }
-
-  get cliente() { return this._cliente; }
-
-  get saldo() { return this._saldo; }
-
-  constructor(agencia, cliente) {
-    this.agencia = agencia;
-    this.cliente = cliente;
-    this._saldo = 0;
-
-    ContaCorrente.numeroDeContas += 1;
-
-    console.log('Conta corrente de ' + this.cliente.nome + ' criada com sucesso!!')
   }
 
   sacar(valor) {
