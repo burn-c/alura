@@ -58,4 +58,16 @@ A inicialização de atributos é a principal responsabilidade do `construtor`
 - Atributos `readonly`
 - Encapsulamento
 
+---
+# Interfaces e Herança em Orientação a Objetos
+___
 
+# 06. Conhecendo o problema do cliente
+
+## O que aprendi
+
+- Relembramos conceitos de classe, Propriedades,
+- Boas práticas na hora de declarar atributos
+- Declarando sempre as propriedades como sendo privadas inicialmente
+- Problemas de duplicação de código
+- Problemas de código extremamente compartilhado
