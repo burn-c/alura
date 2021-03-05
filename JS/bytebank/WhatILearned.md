@@ -54,7 +54,8 @@ Proposta de adicionar atributos privados ao javascript:
 ## O que aprendi
 - Constructors
 A inicialização de atributos é a principal responsabilidade do `construtor`
-
 - Atributos estáticos
+- Atributos `readonly`
+- Encapsulamento
 
 
