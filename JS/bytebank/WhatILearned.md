@@ -49,4 +49,12 @@ Proposta de adicionar atributos privados ao javascript:
 - Getters e Setters ( `get` e `set` )
 - Encapsulando com assessores
 
+# 05. Construtores e estáticos
+
+## O que aprendi
+- Constructors
+A inicialização de atributos é a principal responsabilidade do `construtor`
+
+- Atributos estáticos
+
 
