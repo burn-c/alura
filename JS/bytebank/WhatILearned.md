@@ -1,4 +1,4 @@
-# Repetição de código
+# 01. Repetição de código
 
 ## O que aprendi
 
@@ -7,7 +7,7 @@
 - Instâcia/Objeto
 - Operador `new`
 
-# Adicionando comportamentos
+# 02. Adicionando comportamentos
 
 ## O que aprendi
 
@@ -25,6 +25,7 @@ Proposta de adicionar atributos privados ao javascript:
 
 - Reference : https://github.com/tc39/proposal-class-fields
 
+# 03. Modularizando código
 
 ## O que aprendi
 
@@ -41,7 +42,7 @@ Proposta de adicionar atributos privados ao javascript:
 
 - Reference: https://medium.com/@ethannam/javascripts-memory-model-7c972cd2c239
 
-# Acessando Atributos privados
+# 04. Acessando Atributos privados
 
 ## O que aprendi
 
@@ -71,3 +72,5 @@ ___
 - Declarando sempre as propriedades como sendo privadas inicialmente
 - Problemas de duplicação de código
 - Problemas de código extremamente compartilhado
+
+# 07. Herança
