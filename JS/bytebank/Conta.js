@@ -1,5 +1,4 @@
 import { Cliente } from "./Cliente.js";
-import { ContaCorrente } from "./ContaCorrente.js";
 
 export class Conta {
   static numeroDeContas = 0;
@@ -9,8 +8,12 @@ export class Conta {
     this.cliente = cliente;
     this.agencia = agencia;
     this._saldo = 0;
+    console.log(this.constructor)
+    if(this.constructor == Conta) {
+      return console.log('Você não deveria instanciar um objeto do tipo conta!');
+    }
 
-    ContaCorrente.numeroDeContas += 1;
+    Conta.numeroDeContas += 1;
     console.log('Conta corrente de ' + cliente.nome + ' criada com sucesso!!')
   }
   
