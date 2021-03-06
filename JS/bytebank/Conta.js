@@ -4,14 +4,14 @@ export class Conta {
   static numeroDeContas = 0;
 
   constructor(saldoInicial, cliente, agencia) {
+    // Classe abstrata Conta
+    if(this.constructor == Conta) {
+      throw new Error('⚠️  Você não deveria instanciar um objeto do tipo Conta Diretamente!  ⚠️');
+    }
+
     this._saldo = saldoInicial;
     this.cliente = cliente;
     this.agencia = agencia;
-    this._saldo = 0;
-    console.log(this.constructor)
-    if(this.constructor == Conta) {
-      return console.log('Você não deveria instanciar um objeto do tipo conta!');
-    }
 
     Conta.numeroDeContas += 1;
     console.log('Conta corrente de ' + cliente.nome + ' criada com sucesso!!')
