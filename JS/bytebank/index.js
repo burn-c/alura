@@ -24,6 +24,11 @@ contaCorrenteRicardo.depositar(500);
 */
 
 /**
+* Withdraw money 
+*/
+contaCorrenteRicardo.sacar(100)
+
+/**
 * Logs
 */
 

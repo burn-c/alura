@@ -27,10 +27,19 @@ export class Conta {
   get saldo() { return this._saldo; }
 
   sacar(valor) {
-    if(this._saldo < valor) return console.log('Saldo insuficiente!!!');
+    let taxa = 1;
+    return this._sacar(valor, taxa);
+  }
 
-    this._saldo -= valor;
-    console.log('Conta de ' + this._cliente.nome + ' -> Sacado = R$ ' + valor)
+  _sacar(valor, taxa) {
+    const valorSacado = taxa * valor;
+    if(this._saldo < valorSacado) {
+      console.log('Saldo insuficiente!!!');
+      return 0;
+    }
+
+    this._saldo -= valorSacado;
+    // console.log('Conta de ' + cliente.nome + ' -> Sacado = R$ ' + valorSacado)
     console.log('Saldo atualizado R$ ' + this._saldo)
       
     return valor;

@@ -74,3 +74,14 @@ ___
 - Problemas de código extremamente compartilhado
 
 # 07. Herança
+
+## O que aprendi
+
+- Especializando código
+- Herdando propriedades e atributos
+- Sobrecarga de métodos
+- Compartilhando código de forma segura
+- Mantendo nosso código na linguagem do cliente
+- Evitando código muito complicado através da herança
+- Palavra-chave `super`
+- Método e propriedades privadas e protegidas
