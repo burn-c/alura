@@ -87,3 +87,12 @@ ___
 - Método e propriedades privadas e protegidas
 
 # 08. Classes abstratas
+
+## O que aprendi
+
+- Como o `JS` sabe quem está sendo instanciado.
+- Pesando na proteção do nosso sistema
+- Lançando erros para o sistema
+- Classes abstratas
+- Métodos abstratos
+- Erros em tempo de execução
