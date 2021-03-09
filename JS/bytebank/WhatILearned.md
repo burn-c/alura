@@ -108,3 +108,7 @@ Proposta de adicionar atributos privados ao javascript:
 - Polimorfismo
 - Métodos estáticos
 - Maneiras de tratar objetos de diferentes tipos de maneira parecida
+
+# 10. Interfaces e Duck Type
+
+## O que aprendi
