@@ -53,15 +53,18 @@ Proposta de adicionar atributos privados ao javascript:
 # 05. Construtores e estáticos
 
 ## O que aprendi
+
 - Constructors
-A inicialização de atributos é a principal responsabilidade do `construtor`
+  A inicialização de atributos é a principal responsabilidade do `construtor`
 - Atributos estáticos
 - Atributos `readonly`
 - Encapsulamento
 
 ---
+
 # Interfaces e Herança em Orientação a Objetos
-___
+
+---
 
 # 06. Conhecendo o problema do cliente
 
@@ -101,3 +104,7 @@ ___
 
 ## O que aprendi
 
+- Revisão de herança, boas práticas de código e encapsulamento
+- Polimorfismo
+- Métodos estáticos
+- Maneiras de tratar objetos de diferentes tipos de maneira parecida
