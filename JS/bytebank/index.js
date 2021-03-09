@@ -24,7 +24,7 @@ const cliente2 = new Cliente("Alice", 22211144402);
  */
 diretor.cadastrarSenha("111");
 gerente.cadastrarSenha("222");
-cliente1.cadastrarSenha("333");
+cliente1.cadastrarSenha("3333");
 
 /**
  * Create accounts

@@ -112,3 +112,9 @@ Proposta de adicionar atributos privados ao javascript:
 # 10. Interfaces e Duck Type
 
 ## O que aprendi
+
+- operador `in`
+- operador `instanceOf`
+- Como proteger nossos sistemas
+- interfaces padronizadas
+- Ducky Type
