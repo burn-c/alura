@@ -2,6 +2,7 @@ import { Conta } from './Conta.js';
 import { Cliente } from './Cliente.js'
 import { ContaCorrente } from './ContaCorrente.js'
 import { ContaPoupanca } from './ContaPoupanca.js';
+import { ContaSalario } from './ContaSalario.js';
 
 /**
 * Create customers
@@ -14,12 +15,13 @@ const cliente2 = new Cliente('Alice', 22211144402);
 */
 const contaCorrenteRicardo = new ContaCorrente(1001, cliente1);
 const contaPoupanca = new ContaPoupanca(50, cliente1, 1001);
-const conta = new Conta(50, cliente1, 1001);
+const contaSalario = new ContaSalario(cliente1);
 
 /**
 * Deposits
 */
-contaCorrenteRicardo.depositar(500);
+// contaCorrenteRicardo.depositar(500);
+contaSalario.depositar(500);
 
 /**
 * Transfers
@@ -28,7 +30,8 @@ contaCorrenteRicardo.depositar(500);
 /**
 * Withdraw money 
 */
-contaCorrenteRicardo.sacar(100)
+// contaCorrenteRicardo.sacar(100)
+contaSalario.sacar(100)
 
 /**
 * Logs
@@ -36,7 +39,8 @@ contaCorrenteRicardo.sacar(100)
 
 console.log('\n')
 
-console.log(conta)
+console.log(contaSalario)
+
 console.log('\n')
 
 console.log('Total de contas correntes: ' + ContaCorrente.numeroDeContas)

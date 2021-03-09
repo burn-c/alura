@@ -10,4 +10,9 @@ export class ContaPoupanca extends Conta {
     // Verificar por que não está aceitando cliente.nome
     // console.log('Conta poupança de ' + this._cliente.nome + ' criada com sucesso!!')
   }
+
+  sacar(valor) {
+    const taxa = 1.02;
+    return this._sacar(valor, taxa);
+  }
 }
