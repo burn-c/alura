@@ -96,3 +96,8 @@ ___
 - Classes abstratas
 - Métodos abstratos
 - Erros em tempo de execução
+
+# 09. Sistema interno
+
+## O que aprendi
+

@@ -1,46 +1,46 @@
-import { Conta } from './Conta.js';
-import { Cliente } from './Cliente.js'
-import { ContaCorrente } from './ContaCorrente.js'
-import { ContaPoupanca } from './ContaPoupanca.js';
-import { ContaSalario } from './ContaSalario.js';
+import { Conta } from "./Conta/Conta.js";
+import { Cliente } from "./Cliente.js";
+import { ContaCorrente } from "./Conta/ContaCorrente.js";
+import { ContaPoupanca } from "./Conta/ContaPoupanca.js";
+import { ContaSalario } from "./Conta/ContaSalario.js";
 
 /**
-* Create customers
-*/
-const cliente1 = new Cliente('Ricardo', 11122233301);
-const cliente2 = new Cliente('Alice', 22211144402);
+ * Create customers
+ */
+const cliente1 = new Cliente("Ricardo", 11122233301);
+const cliente2 = new Cliente("Alice", 22211144402);
 
 /**
-* Create accounts
-*/
+ * Create accounts
+ */
 const contaCorrenteRicardo = new ContaCorrente(1001, cliente1);
 const contaPoupanca = new ContaPoupanca(50, cliente1, 1001);
 const contaSalario = new ContaSalario(cliente1);
 
 /**
-* Deposits
-*/
+ * Deposits
+ */
 // contaCorrenteRicardo.depositar(500);
 contaSalario.depositar(500);
 
 /**
-* Transfers
-*/
+ * Transfers
+ */
 
 /**
-* Withdraw money 
-*/
+ * Withdraw money
+ */
 // contaCorrenteRicardo.sacar(100)
-contaSalario.sacar(100)
+contaSalario.sacar(100);
 
 /**
-* Logs
-*/
+ * Logs
+ */
 
-console.log('\n')
+console.log("\n");
 
-console.log(contaSalario)
+console.log(contaSalario);
 
-console.log('\n')
+console.log("\n");
 
-console.log('Total de contas correntes: ' + ContaCorrente.numeroDeContas)
+console.log("Total de contas correntes: " + ContaCorrente.numeroDeContas);
