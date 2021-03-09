@@ -14,15 +14,17 @@ const diretor = new Diretor("Rodrigo", 10000, 12312312301);
 const gerente = new Gerente("Ricardo", 5000, 12312312302);
 
 /**
- * Register Password
- */
-diretor.cadastrarSenha("123123123");
-
-/**
  * Create customers
  */
 const cliente1 = new Cliente("Ricardo", 11122233301);
 const cliente2 = new Cliente("Alice", 22211144402);
+
+/**
+ * Register Password
+ */
+diretor.cadastrarSenha("111");
+gerente.cadastrarSenha("222");
+cliente1.cadastrarSenha("333");
 
 /**
  * Create accounts
@@ -34,7 +36,9 @@ const cliente2 = new Cliente("Alice", 22211144402);
 /**
  * Authentication
  */
-const estaLogado = SistemaAutenticacao.login(diretor, 123123123);
+const diretorEstaLogado = SistemaAutenticacao.login(diretor, "111");
+const gerenteEstaLogado = SistemaAutenticacao.login(gerente, "222");
+const cliente1EstaLogado = SistemaAutenticacao.login(cliente1, "333");
 
 /**
  * Deposits
@@ -57,8 +61,6 @@ const estaLogado = SistemaAutenticacao.login(diretor, 123123123);
  */
 
 console.log("\n");
-
-console.log(estaLogado);
 
 console.log("\n");
 
